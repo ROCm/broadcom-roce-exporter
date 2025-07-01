@@ -1,11 +1,12 @@
-# broadcom_roce_exporter
+# Broadcom RoCE exporter
 
 ## About 
-This is a Broadcom/ROCe exporter reads all of the counters and gauges from
+This is a Broadcom/ROcE exporter that reads all of the counters and gauges from
 `/sys/class/infiniband/<bnxt_reX>/ports/1/hw_counters`.
 
 * Counters are values that increase over time, starting with at 0 and incrementing, such as `tx_bytes`. 
-* Gauges are values that can increase or decrease over time. They reflect the value at that point in time such as `active_qps`.
+* Gauges are values that can increase or decrease over time. They reflect the value at that point in time such as
+  `active_qps`.
 * The exporter is served out of port 9101. If you'd like a different port, you can update the last two lines at the
 bottom of `main.go` with a new value, otherwise you can select your port if you are using Docker. 
 
