@@ -1,7 +1,7 @@
 # Broadcom RoCE exporter
 
 ## About 
-This is a Broadcom/ROcE exporter that reads all of the counters and gauges from
+This is a Broadcom/RoCE exporter that reads all of the counters and gauges from
 `/sys/class/infiniband/<bnxt_reX>/ports/1/hw_counters`.
 
 * Counters are values that increase over time, starting with at 0 and incrementing, such as `tx_bytes`. 
