@@ -74,7 +74,7 @@ go version
 git clone https://github.com/your-org/broadcom-exporter.git
 cd broadcom-exporter
 ```
-If not using `git clone` due to limitations, do the following following commands. Otherwise, skip this and move to step 2. 
+If not using `git clone` due to limitations, do the following commands. Otherwise, skip this and move to step 2. 
 
 ```bash
 mkdir broadcom_exporter && cd broadcom_exporter
