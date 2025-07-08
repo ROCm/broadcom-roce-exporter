@@ -1,6 +1,4 @@
-// Whitney Wickesberg
-// Exporter for Broadcom RoCE metrics
-// All of these function as a gauge 
+// Broadcom Exporter
 
 package main
 
